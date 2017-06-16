@@ -3,7 +3,7 @@ package rocks.whisperingchild.leetcode;
 import org.junit.Test;
 
 /**
- * Created by yiming on 15/06/2017.
+ * Created by whisperingchild on 15/06/2017.
  */
 public class SampleTest {
     @Test

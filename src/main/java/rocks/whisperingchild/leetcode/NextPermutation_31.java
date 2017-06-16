@@ -1,7 +1,7 @@
 package rocks.whisperingchild.leetcode;
 
 /**
- * Created by yiming on 15/06/2017.
+ * Created by whisperingchild on 15/06/2017.
  */
 public class NextPermutation_31 {
     public void nextPermutation(int[] nums) {

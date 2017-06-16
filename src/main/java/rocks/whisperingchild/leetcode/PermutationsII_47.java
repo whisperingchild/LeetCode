@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by yiming on 16/06/2017.
+ * Created by whisperingchild on 16/06/2017.
  */
 public class PermutationsII_47 {
     public List<List<Integer>> permuteUnique(int[] nums) {

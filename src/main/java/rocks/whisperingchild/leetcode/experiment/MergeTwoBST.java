@@ -3,7 +3,7 @@ package rocks.whisperingchild.leetcode.experiment;
 import rocks.whisperingchild.leetcode.primitive.TreeNode;
 
 /**
- * Created by yiming on 16/06/2017.
+ * Created by whisperingchild on 16/06/2017.
  */
 public class MergeTwoBST {
     public TreeNode merge(TreeNode node1, TreeNode node2) {
