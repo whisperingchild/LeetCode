@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by whisperingchild on 18/06/2017.
+ * Created by WhisperingChild on 18/06/2017.
  */
 public class FindLargestValue_515 {
     public List<Integer> largestValues(TreeNode root) {

@@ -1,7 +1,7 @@
 package rocks.whisperingchild.leetcode;
 
 /**
- * Created by whisperingchild on 16/06/2017.
+ * Created by WhisperingChild on 16/06/2017.
  */
 public class PermutationSequence_60 {
     public String getPermutation(int n, int k) {

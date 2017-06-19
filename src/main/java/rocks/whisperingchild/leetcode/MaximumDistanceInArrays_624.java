@@ -3,7 +3,7 @@ package rocks.whisperingchild.leetcode;
 import java.util.List;
 
 /**
- * Created by whisperingchild on 18/06/2017.
+ * Created by WhisperingChild on 18/06/2017.
  */
 public class MaximumDistanceInArrays_624 {
     public int maxDistance(List<List<Integer>> arrays) {

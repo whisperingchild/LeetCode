@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by whisperingchild on 16/06/2017.
+ * Created by WhisperingChild on 16/06/2017.
  */
 public class Permutations_46 {
     public List<List<Integer>> insert(int[] nums) {

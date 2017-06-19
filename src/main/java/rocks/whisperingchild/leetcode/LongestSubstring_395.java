@@ -3,7 +3,7 @@ package rocks.whisperingchild.leetcode;
 import java.util.Arrays;
 
 /**
- * Created by whisperingchild on 17/06/2017.
+ * Created by WhisperingChild on 17/06/2017.
  */
 public class LongestSubstring_395 {
     public int longestSubstring(String s, int k) {
