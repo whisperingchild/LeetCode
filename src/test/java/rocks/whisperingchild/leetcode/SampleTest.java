@@ -39,4 +39,14 @@ public class SampleTest {
         System.out.println(solution.getMoneyAmount(6));
         System.out.println(solution.getMoneyAmount(7));
     }
+
+    @Test
+    public void test() {
+        int x = 1 & -1;
+        int y = 2 & -2;
+        int z = 3 & -3;
+        for (int i = 1; i <= 32; ++i) {
+            System.out.println(-i & i);
+        }
+    }
 }

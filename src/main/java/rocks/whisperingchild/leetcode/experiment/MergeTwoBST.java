@@ -10,6 +10,58 @@ public class MergeTwoBST {
         return null;
     }
 
+    private TreeNode rightRotate(TreeNode root) {
+        if (root.left == null) return root;
+        TreeNode left = root.left;
+        TreeNode leftRight = left.right;
+        root.left = leftRight;
+        left.right = root;
+        return left;
+    }
+
+    private TreeNode leftRotate(TreeNode root) {
+        return root;
+    }
+
+    private TreeNode toRightVine (TreeNode root) {
+        while (root.left != null) {
+            root = rightRotate(root);
+        }
+        TreeNode node = root;
+        while (node != null) {
+            if (node.left != null) {
+                node = rightRotate(node);
+            }
+            node = node.right;
+        }
+        return root;
+    }
+
+    private int countRightVine(TreeNode root) {
+        int count = 0;
+        while (root != null) {
+            ++count;
+            root = root.right;
+        }
+        return count;
+    }
+
+    private TreeNode toLeftTree(TreeNode root) {
+        int count = countRightVine(root);
+        int times = (int) (Math.log(count) / Math.log(2.0));
+        TreeNode node = root;
+        for (int i = times; i > 0; --i) {
+            node = leftRotate(node);
+            root = node.right;
+            for (int j = count / 2 - 1; j > 0; --j) {
+                root = leftRotate(root);
+                root = root.right;
+            }
+            count >>>= 1;
+        }
+        return node;
+    }
+
     public void treeToLinkList(TreeNode node, TreeNode[] nodes) {
         nodes[0] = node;
         nodes[1] = node;
